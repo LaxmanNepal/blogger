@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrubLottieTimeline.min.js"></script>
+    <link rel="stylesheet" href="#">
+      <style>
+        body {
+ background-color: #000;
+ overflow: hidden;
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#animationWindow {
+ width: 100%;
+ height: 100%;
+ cursor: pointer;
+}
+        
+        #openfull, #exitfull { background: 0 0; border: none; cursor: pointer; padding: 0; margin: 0; text-align: center; top: 12px; position: absolute; right: 50px; } #openfull:active, #exitfull:active, #openfull:focus, #exitfull:focus { outline: 0; } #openfull svg, #exitfull svg { vertical-align: middle; } #exitfull { display: none; }
+        
+        
+      </style>
+  </head>
+  <body>
+    <div id="animationWindow">
+</div>
+    
+    <button aria-label="Open Fullscreen" id="openfull" onclick="openFullscreen();"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" /></svg></button>
+<button aria-label="Exit Fullscreen" id="exitfull" onclick="closeFullscreen();"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z" /></svg></button>
+
+    
+	<script>
+      var select = function(s) {
+    return document.querySelector(s);
+  },
+  selectAll = function(s) {
+    return document.querySelectorAll(s);
+  }, 
+  path = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/",
+  animationWindow = select('#animationWindow'),
+  anim = lottie.loadAnimation({
+  container: animationWindow, 
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  //initialSegment: [0, 1140],
+  path: 'https://assets.codepen.io/35984/space+knot.json'
+});
+
+ anim.addEventListener('DOMLoaded', onDOMLoaded);
+ anim.setSpeed(1.5);
+
+function onDOMLoaded(e){ 
+
+
+}
+//ScrubLottieTimeline(anim)
+      </script>
+    
+    <script>
+//<![CDATA[
+var elem = document.documentElement; function openFullscreen() { if (elem.requestFullscreen) { elem.requestFullscreen(); } else if (elem.mozRequestFullScreen) { elem.mozRequestFullScreen(); } else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen(); } else if (elem.msRequestFullscreen) { elem.msRequestFullscreen(); } document.getElementById("openfull").style.display = "none"; document.getElementById("exitfull").style.display = "block"; } function closeFullscreen() { if (document.exitFullscreen) { document.exitFullscreen(); } else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); } else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); } else if (document.msExitFullscreen) { document.msExitFullscreen(); } document.getElementById("openfull").style.display = "block"; document.getElementById("exitfull").style.display = "none"; }
+//]]>
+</script>
+  </body>
+</html>

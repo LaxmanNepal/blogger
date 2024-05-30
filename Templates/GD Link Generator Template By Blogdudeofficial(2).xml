@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:responsive='true' expr:dir='data:blog.languageDirection' lang='en-US' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ <head>
+ <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+  <b:skin><![CDATA[
+
+     body{background:#fff}
+
+   ]]></b:skin>
+   </head>
+   <body>
+   <b:section class='main' id='main' showaddelement='yes'>
+     <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>&lt;!doctype html&gt;
+
+  
+    &lt;!-- Required meta tags --&gt;
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot; /&gt;
+   
+
+    &lt;!-- Image and text --&gt;
+    &lt;nav class=&quot;navbar navbar-light bg-dark&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+      &lt;a class=&quot;navbar-brand text-light&quot; href=&quot;/&quot;&gt;
+        &lt;img src=&quot;https://1.bp.blogspot.com/-4GQYBDlFqvE/X5BDyv-Ru1I/AAAAAAAAByE/XETm4XOEfiYT_nktQSH5nPpSN9vmQI17QCLcBGAsYHQ/s0/logo%2B%25281%2529.png&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;d-inline-block align-top&quot; alt=&quot;&quot; /&gt;
+        GDlink Generator
+      &lt;/a&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+
+  &lt;div class=&quot;container bg-img&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;card  rounded-lg border-dark&quot;&gt;
+        &lt;div class=&quot;card-header bg-dark text-white&quot;&gt;
+          &lt;img src=&quot;https://1.bp.blogspot.com/-4GQYBDlFqvE/X5BDyv-Ru1I/AAAAAAAAByE/XETm4XOEfiYT_nktQSH5nPpSN9vmQI17QCLcBGAsYHQ/s0/logo%2B%25281%2529.png&quot; width=&quot;40&quot; /&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-light float-right &quot; data-toggle=&quot;modal&quot; data-target=&quot;.instructions&quot;&gt;   Get instructions&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-body bg-light&quot;&gt;
+            &lt;h2 class=&quot;card-title&quot;&gt;GDrive Direct Link Generator&lt;/h2&gt;
+            &lt;form&gt;
+              &lt;label for=&quot;exampleInputPassword1&quot;&gt;Share Link&lt;/label&gt;
+              &lt;div class=&quot;input-group mb-3&quot;&gt;
+                &lt;input type=&quot;url&quot; id=&quot;sharelink&quot; class=&quot;form-control&quot; placeholder=&quot;https://drive.google.com/file/d/..../view?usp=sharing&quot; /&gt;
+              &lt;/div&gt; 
+            &lt;label for=&quot;exampleInputPassword1&quot;&gt;Direct Link&lt;/label&gt;
+            &lt;div class=&quot;input-group mb-3&quot;&gt;
+              &lt;input type=&quot;text&quot; id=&quot;downloadlink&quot; class=&quot;form-control&quot; placeholder=&quot;Direct Download Link..&quot; readonly /&gt;
+              &lt;div class=&quot;input-group-append&quot;&gt;
+               &lt;button id=&quot;copylinkbtn&quot; class=&quot;btn btn-dark&quot; type=&quot;button&quot; data-clipboard-target=&quot;#downloadlink&quot; disabled=&quot;&quot; onclick=&quot;copy()&quot;&gt;Copy link&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;            
+          &lt;/form&gt;
+        &lt;/div&gt;&lt;!--end card body--&gt;
+      &lt;/div&gt;&lt;!--end card--&gt;
+    &lt;/div&gt;&lt;!--end row--&gt;
+  &lt;/div&gt;&lt;!--end container--&gt;
+
+  &lt;footer class=&quot;bg-dark py-2 text-center text-white fixed-bottom&quot;&gt;
+    &lt;p&gt;Powerd By &lt;a href=&quot;http://blogdude-themes.blogspot.com/&quot; target=&quot;_blank&quot;&gt;@Blogdudeoffiical Pvt Ltd.&lt;/a&gt;&lt;/p&gt;
+  &lt;/footer&gt;
+
+  &lt;!--link created success or failed alert--&gt;
+  &lt;div aria-live=&quot;polite&quot; aria-atomic=&quot;true&quot; data-autohide=&quot;false style=&quot; position:relative;=&quot;&quot; min-height:=&quot;&quot; 200px;&quot;=&quot;&quot;&gt;
+  &lt;div class=&quot;toast&quot; id=&quot;toast&quot; data-delay=&quot;3000&quot; style=&quot;position: absolute; bottom: 75px; right: 30px;&quot;&gt;
+    &lt;div class=&quot;toast-header bg-success text-white&quot;&gt;
+      &lt;img src=&quot;https://1.bp.blogspot.com/-4GQYBDlFqvE/X5BDyv-Ru1I/AAAAAAAAByE/XETm4XOEfiYT_nktQSH5nPpSN9vmQI17QCLcBGAsYHQ/s0/logo%2B%25281%2529.png&quot; class=&quot;rounded mr-2&quot; alt=&quot;logo_ico&quot; width=&quot;10&quot; /&gt;
+      &lt;strong class=&quot;mr-auto&quot;&gt;Ok, Done !&lt;/strong&gt;
+      &lt;small&gt;4 sec ago&lt;/small&gt;
+      &lt;button type=&quot;button&quot; class=&quot;ml-3 mb-2 close&quot; data-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;
+        &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;toast-body&quot;&gt;
+      Link Generated Success ! You can copy it&#39;s Now !
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;toast error&quot; id=&quot;error&quot; data-delay=&quot;3000&quot; style=&quot;position: absolute; bottom: 75px; right: 30px;&quot;&gt;
+    &lt;div class=&quot;toast-header bg-danger text-white&quot;&gt;
+      &lt;img src=&quot;img/logo.png&quot; class=&quot;rounded mr-2&quot; alt=&quot;logo_ico&quot; width=&quot;10&quot; /&gt;
+      &lt;strong class=&quot;mr-auto&quot;&gt;Error !&lt;/strong&gt;
+      &lt;small&gt;3 sec ago&lt;/small&gt;
+      &lt;button type=&quot;button&quot; class=&quot;ml-2 mb-1 close&quot; data-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;
+        &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;toast-body&quot;&gt;
+      Invalid Url ! Plz check again .
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;!-- Modal --&gt;
+
+  &lt;div class=&quot;modal fade instructions&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myExtraLargeModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog modal-xl&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;img src=&quot;https://1.bp.blogspot.com/-49fCzhCq6Xk/Xh7aUwT1NsI/AAAAAAAABlc/IIXFBmJWRL80Rc-F1dxnfleg9feownWMgCLcBGAsYHQ/s1600/instructions.gif&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+    &lt;!-- Optional JavaScript --&gt;
+    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot; integrity=&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot; integrity=&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+    &lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;
+
+  
+&lt;/!doctype&gt;</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  
+</b:includable>
+     </b:widget>
+     <b:widget id='HTML2' locked='false' title='' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>&lt;script&gt;
+(function($) {
+  $(function() {
+    var $shareLink = $(&#39;#sharelink&#39;),
+      $downloadLink = $(&#39;#downloadlink&#39;),
+      $copyButton = $(&#39;#copylinkbtn&#39;),
+      clipboard;
+    $shareLink.on(&#39;keyup paste click&#39;, function() {
+      var link = $shareLink.val(),
+        l = link.replace(/\/file\/d\/(.+)\/(.+)/, &quot;/uc?export=download&amp;id=$1&quot;);
+      if(l !== link) {
+        $downloadLink.val(l);
+        $copyButton.removeAttr(&#39;disabled&#39;);
+        $(&#39;#toast&#39;).toast(&#39;show&#39;);
+      } else {
+        $downloadLink.val(&#39;&#39;);
+        $copyButton.attr(&#39;disabled&#39;, &#39;disabled&#39;);
+        if (is_url(link) &amp;&amp; link.length &gt; 10) {
+            $(&#39;#error&#39;).toast(&#39;show&#39;);
+        }
+      }
+    });
+
+    $downloadLink.on(&#39;click&#39;, function() {
+      $downloadLink.select();
+    });
+  });
+})(jQuery);
+
+function is_url(str)
+{
+  regexp =  /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+        if (regexp.test(str))
+        {
+          return false;
+        }
+        else
+        {
+          return true;
+        }
+}
+
+
+  function copy() {
+  /* Get the text field */
+  var copyText = document.getElementById(&quot;downloadlink&quot;);
+  copyText.select(); 
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+  document.execCommand(&quot;copy&quot;);
+
+  alert(&quot;Copied the text: &quot; + copyText.value);
+  document.getElementById(&#39;copylinkbtn&#39;).innerHTML = &quot;Copied&quot;;
+};
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split(&#39;&amp;&#39;),
+        sParameterName,
+        i;
+
+    for (i = 0; i &lt; sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split(&#39;=&#39;);
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+  };
+&lt;/script&gt;</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  
+</b:includable>
+     </b:widget>
+     <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>&lt;style&gt;
+
+body{
+	    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.bg-img{
+	background-image: url(&#39;https://1.bp.blogspot.com/-36L0_XP933U/Xh7aT2CC4MI/AAAAAAAABlY/l08p2AAJKqIWfb6rEQvaPaNCnVnbcabgQCLcBGAsYHQ/s1600/bg.jpg&#39;);
+}
+
+.card{
+	width:100%;
+	max-width: 500px;
+ margin: 0 auto;
+ float: none;
+ border:2px solid #362745!important;
+ position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #362745;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(216,217,219,.5);
+}
+&lt;/style&gt;</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  
+</b:includable>
+     </b:widget>
+   </b:section>
+   
+   <style> .edge-right{z-index:99999999;background:#a8a8a8;height:100vh;width:0px;box-shadow:10px 0px 10px 12px #333;position:fixed;top:0;right:0} .edge-left{z-index:99999999;background:#a8a8a8;height:100vh;width:0px;box-shadow:0px 0px 10px 3px #333;position:fixed;top:0;left:0} </style> <div class='edge-right'/> <div class='edge-left'/>  
+
+  
+  
+  </body>
+   </html>
