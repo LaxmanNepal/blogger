@@ -1,0 +1,107 @@
+/*-- Customize Options (Start) --
+<Variable name="keycolor" description="Main Color" type="color" default="#3b82f6" value="#3b82f6"/>
+<Group description="Layout Options" selector="body">
+	<Variable name="boxedMode" description="Enable Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
+    <Variable name="row.width" description="Container Width" type="length" default="970px" min="970px" max="1094px" value="970px"/>
+    <Variable name="sidebar.width" description="Sidebar Width" type="length" default="300px" min="250px" max="336px" value="300px"/>
+    <Variable name="border.radius" description="Rounded Corner" type="length" default="8px" min="2px" max="12px" value="4px"/>
+    <Variable name="stickyMenu" description="Enable Sticky Header" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="stickySidebar" description="Enable Sticky Sidebar" type="length" default="1px" min="0px" max="1px" value="1px"/>
+</Group>
+<Group description="Fonts" selector="body">
+    <Variable name="main.font" description="Main Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+    <Variable name="title.font" description="Title Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+    <Variable name="text.font" description="Text Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+</Group>
+<Group description="Background" selector="body">
+	<Variable name="background.color" description="Body Background (Boxed)" type="color" default="#f1f5f9"  value="#fafafa"/>
+    <Variable name="outer.bg" description="Outer Background" type="color" default="#f8fafc"  value="#fafafa"/>
+    <Variable name="widget.bg" description="Widget Background" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="video.cover" description="Enable Video Widget Cover" type="length" default="1px" min="0px" max="1px" value="1px"/>
+</Group>
+<Group description="Colors" selector="body">
+    <Variable name="accent.color" description="Accent Color" type="color" default="#3b82f6" value="#1e73be"/>
+    <Variable name="title.color" description="Title Color" type="color" default="#0f172a" value="#111111"/>
+    <Variable name="title.hover.color" description="Title Hover Color" type="color" default="$(accent.color)" value="#1e73be"/>
+    <Variable name="text.color" description="Text Color" type="color" default="#475569"  value="#111111"/>
+    <Variable name="meta.color" description="Meta Color" type="color" default="#94a3b8" value="#595959"/>
+</Group>
+<Group description="Gradient Style" selector="body">
+	<Variable name="gradient" description="Enable Gradient" type="length" default="1px" min="0px" max="1px" value="0px"/>
+    <Variable name="gradient.from" description="Background (From)" type="color" default="$(accent.color)" value="#1e73be"/>
+    <Variable name="gradient.to" description="Background (To)" type="color" default="#d946ef" value="#d946ef"/>
+</Group>
+<Group description="Border Top" selector="body">
+    <Variable name="border.top" description="Height" type="length" default="5px" min="0px" max="8px" value="0px"/>
+    <Variable name="border.top.bg" description="Background" type="color" default="$(accent.color)" value="#1e73be"/>
+</Group>
+<Group description="Header" selector=".site-header">
+    <Variable name="header.height" description="Height" type="length" default="62px" min="50px" max="70px" value="68px"/>
+    <Variable name="header.bg" description="Background" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="header.color" description="Color" type="color" default="$(title.color)" value="#111111"/>
+    <Variable name="header.hover.color" description="Hover Color" type="color" default="$(accent.color)" value="#1e73be"/>
+</Group>
+<Group description="Sub Menu" selector=".site-header">
+    <Variable name="submenu.bg" description="Background" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="submenu.color" description="Color" type="color" default="$(title.color)" value="#111111"/>
+    <Variable name="submenu.hover.color" description="Hover Color" type="color" default="$(accent.color)" value="#1e73be"/>
+</Group>
+<Group description="Header Ads" selector="body">
+    <Variable name="header.ads.post" description="Show on Post" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="header.ads.page" description="Show on Page" type="length" default="0px" min="0px" max="1px" value="0px"/>
+</Group>
+<Group description="Blog Posts" selector="#main">
+    <Variable name="gridStyle" description="Enable Grid Style" type="length" default="0px" min="0px" max="1px" value="1px"/>
+    <Variable name="postSummary" description="Show Summary" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="postCategory" description="Show Category" type="length" default="1px" min="0px" max="1px" value="1px"/>
+</Group>
+<Group description="Post Page" selector="body">
+    <Variable name="breadcrumb" description="Show Breadcrumbs" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="itempost.title.size" description="Title Font Size" type="length" default="35px" min="20px" max="50px" value="35px"/>
+    <Variable name="before.ads" description="Show Ads (Before Post Content)" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="itempost.content.size" description="Content Font Size" type="length" default="14px" min="12px" max="20px" value="14px"/>
+    <Variable name="after.ads" description="Show Ads (After Post Content)" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="postnav" description="Show Navigation" type="length" default="1px" min="0px" max="1px" value="1px"/>
+</Group>
+<Group description="Footer Ads" selector="body">
+    <Variable name="footer.ads.post" description="Show on Post" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="footer.ads.page" description="Show on Page" type="length" default="0px" min="0px" max="1px" value="0px"/>
+</Group>
+<Group description="Footer" selector=".site-footer">
+    <Variable name="footer.bg" description="Background" type="color" default="#1e293b" value="#ffffff"/>
+    <Variable name="footer.color" description="Color" type="color" default="#f8fafc" value="#111111"/>
+    <Variable name="footer.hover.color" description="Hover Color" type="color" default="$(accent.color)" value="#1e73be"/>
+    <Variable name="footer.text.color" description="Text Color" type="color" default="#cbd5e1" value="#111111"/>
+</Group>
+<Group description="Footer Bar" selector=".footer-bar">
+    <Variable name="footerbar.bg" description="Background" type="color" default="#0f172a" value="#111111"/>
+    <Variable name="footerbar.color" description="Color" type="color" default="#f8fafc" value="#ffffff"/>
+    <Variable name="footerbar.hover.color" description="Hover Color" type="color" default="$(accent.color)" value="#1e73be"/>
+</Group>
+<Group description="Dark Mode" selector="body">
+    <Variable name="darkMode" description="Enable Native Dark Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
+    <Variable name="userDarkMode" description="Enable User Dark Mode (Toggle)" type="length" default="1px" min="0px" max="1px" value="1px"/>
+    <Variable name="dark.bg" description="Body Background (Boxed)" type="color" default="#475569" value="#222222"/>
+    <Variable name="dark.outer" description="Outer Background" type="color" default="#0f172a" value="#111111"/>
+    <Variable name="dark.widget" description="Widget Background" type="color" default="#1e293b" value="#191919"/>
+    <Variable name="dark.modal" description="Modal Background" type="color" default="#334155" value="#222222"/>
+    <Variable name="dark.accent.color" description="Accent Color" type="color" default="$(accent.color)" value="#1e73be"/>
+    <Variable name="dark.title" description="Title Color" type="color" default="#f8fafc" value="#f6f7f8"/>
+    <Variable name="dark.text" description="Text Color" type="color" default="#cbd5e1" value="#b4b6b8"/>
+    <Variable name="dark.meta" description="Meta Color" type="color" default="#94a3b8" value="#aaaaaa"/>
+    <Variable name="dark.border.top" description="Border Top Background" type="color" default="$(dark.accent.color)" value="#1e73be"/>
+</Group>
+<Group description="Miscellaneous" selector="body">
+    <Variable name="btn.bg" description="Button Background" type="color" default="$(accent.color)" value="#1e73be"/>
+    <Variable name="btn.color" description="Button Color" type="color" default="#ffffff"  value="#ffffff"/>
+    <Variable name="rgba" description="RGBA Key (Overlay)" type="color" default="#0f172a"  value="#111111"/>
+    <Variable name="browser.bg" description="Browser Tab Background" type="color" default="#0f172a"  value="#222222"/>
+</Group>
+<Variable name="body.background" description="Background" type="background" color="$(background.color)" default="$(color) none repeat fixed top left" value="$(color) none repeat fixed top left"/>
+<Variable name="body.background.color" description="Comments Background" hideEditor="true" type="color" default="transparent"  value="transparent"/>
+<Variable name="body.title.color" description="Comments Color" hideEditor="true" type="color" default="$(title.color)" value="#111111"/>
+<Variable name="body.text.color" description="Comments Text Color" hideEditor="true" type="color" default="$(text.color)"  value="#111111"/>
+<Variable name="body.link.color" description="Comments Link Color" hideEditor="true" type="color" default="$(accent.color)"  value="#1e73be"/>
+<Variable name="body.text.font" description="Comments Font 1" hideEditor="true" type="font" default="normal 400 14px roboto, Arial, sans-serif !important"  value="normal 400 14px roboto, Arial, sans-serif !important"/>
+<Variable name="body.action.font.large" description="Comments Font 2" hideEditor="true" type="font" default="normal 700 14px roboto, Arial, sans-serif !important"  value="normal 700 14px roboto, Arial, sans-serif !important"/>
+-- Customize Options (End) --*/
