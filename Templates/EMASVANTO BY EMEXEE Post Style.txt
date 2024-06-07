@@ -1,0 +1,40 @@
+<!-- www.fcthemes.eu.org -->
+
+
+<div class='preview'></div>
+  <div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><img alt="In SEO Pro Responsive Blogger Template original" border="0" data-original-height="738" data-original-width="1167" src="https://2.bp.blogspot.com/-Pjdhb3aLfK0/XM2BXsq3N9I/AAAAAAAACtc/LMUQWQPW8t4YKZHh6vwcJ248699_o52QACLcBGAs/s1600/In%2BSEO%2BPro%2BResponsive%2BBlogger%2BTemplate.png" title="In SEO Pro Responsive Blogger Template original" /></div></div> 
+
+
+<!-- description here-->
+
+<div class="sb sb_orange"><div class="box_title">Description</div>
+
+<div class="box_content">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br />Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br />It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br /><center><a href="#" rel="nofollow" style="-moz-border-radius: 16px; -webkit-border-radius: 16px; background: #1da7e7; border-radius: 16px; border: 0; color: white; font: 12px/28px Arial, Helvetica, sans-serif; padding: 7px 16px; text-decoration: none;" target="_blank" title="Request Demo">Request Demo</a></center>
+<!--description end here-->
+</div></div>
+
+
+<div style="clear: both;"></div><br />
+<!--Features Star-->
+
+<div class="sb sb_blue">
+<div class="box_title">Features</div>
+<div class="box_content">
+<ol class="rounded-list"><li><ol><li><a>Responsive</a></li><li><a>Google Testing Tool Validator</a></li><li><a>Mobile Friendly</a></li><li><a>Custom 404 Page</a></li><li><a>Fast Loading</a></li><li><a>Google Rich</a></li><li><a>Magazine</a></li><li><a>Seo Friendly</a></li><li><a>Featured Slider</a></li><li><a>Grid</a></li><li><a>Ads Ready</a></li><li><a>Clean Layout</a></li><li><a>Simple Design</a></li><li><a>Whatsapp Sharing</a></li><li><a>Drop Down Menu</a></li><li><a>Social Sharing</a></li><li><a>HTML5 & CSS3</a></li><li><a>Browser Compatibility</a></li></ol></li></ol></div></div><div style="clear: both;"></div><!--Features End--><br /> <!--Free Version Star--><div class="temp-sub"><div class="template_free"><h4>Free Version</h4><ul><l2><span class="free_template"><b>Remove Footer Credits</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>Blog Setup Service</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>No Encrypted Scripts</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>Premium Support</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>Customization Support</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>For Unlimited Domains</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="free_template"><b>Lifetime Template Updates</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2 class="free-box"><a href="#" rel="nofollow"><span class="free_template"><b class="free-but"><span class="lprice"><i class="fa fa-download"></i></span></b><span class="blocks free-txt">Download Now<br /><span class="free-desc">Request Demo</span></span></span></a></l2></ul></div>
+<!--Free Version End--> 
+<!-- www.fcthemes.eu.org -->
+
+<!--Premium Version Star-->
+<div class="template_paid">
+
+<h4>Premium Version</h4><ul><l2><span class="paid_template"><b>Remove Footer Credits</b><span class="sublocks green"><i class="fa fa-check fa-6"></i></span></span></l2><l2><span class="paid_template"><b>Blog Setup Service</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="paid_template"><b>No Encrypted Scripts</b><span class="sublocks green"><i class="fa fa-check fa-6"></i></span></span></l2><l2><span class="paid_template"><b>3 Month Premium Support</b><span class="sublocks green"><i class="fa fa-check fa-6"></i></span></span></l2><l2><span class="free_template"><b>Customization Support</b><span class="sublocks red"><i class="fa fa-times"></i></span></span></l2><l2><span class="paid_template"><b>For Unlimited Domains</b><span class="sublocks green"><i class="fa fa-check fa-6"></i></span></span></l2><l2><span class="paid_template"><b>Lifetime Template Updates</b><span class="sublocks green"><i class="fa fa-check fa-6"></i></span></span></l2><l2 class="paid-box"><a href="https://www.fcthemes.eu.org/" rel="nofollow" target="_blank">
+<span class="paid_template">
+<b class="paid-but">
+<span class="lprice">$9.95</span>
+</b>
+<span class="blocks paid-txt">Buy Now <i class="fa fa-shopping-cart"></i>
+<br />
+<span class="paid-desc">Premium Version</span></span></span></a></l2></ul></div><!--Premium Version End--> <!--Demo Star--><div class="demo-link"><div class="previwe"><a class="demo" href="https://detik.hupweb.com/" target="_blank" title="Preview">Preview</a>  </div></div><!--Demo end--> <!--sidebar Star--><div style="display: none;"><div class="price-header"><div id="Theme-details"><div id="store-style"><div class="rio-ss"><div class="price-header"><span class="license">Website Services:</span><span class="price">$59</span></div><span class="storelist">Full Kontrol Domain</span><span class="storelist">Sertifikat Koneksi Terverifikasi</span><span class="storelist">Responsive Web Design</span><span class="storelist">Optimized Speed</span><span class="storelist">Modern Coding</span><span class="storelist">Template Website SEO Friendly</span><span class="storelist">Multi Browser Compatibility</span></div><br /><center><a _top="" class="storebutton" href="#" target="_blank"> Buy Now</a></center></div></div></div></div></div><!--sidebar End--> <strike>price/$29,67</strike>
+</div>
+<!-- www.fcthemes.eu.org -->

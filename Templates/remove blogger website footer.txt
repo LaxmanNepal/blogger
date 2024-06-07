@@ -1,0 +1,20 @@
+<Step 1 > (Copyright ke upr paste karna hai) 
+
+<style>.removelink{text-indent:-99999px;}</style> 
+<div class="removelink"> 
+
+Example <div class='copyright'>
+
+Step 2 (put /div at the End)  After:
+
+<style>.removelink{text-indent:-99999px;}</style> 
+<div class="removelink">  
+<div class='copyright'>  
+Designed by <a href='http://www.texliff.com/' id='mycontent'   title ='Blogger Tempelates'>My Site</a></div></div> 
+
+
+Step 3 (Removing Copyright Section create your Own) :
+
+<!-- Footer Copyright --> 
+2018 Mysite by <a href='https://www.texliff.com/'>Mysite</a> 
+ 
